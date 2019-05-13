@@ -1,0 +1,8 @@
+---
+applications:
+- name: testebot5
+  path: .
+  memory: 64M
+  instances: 1
+  env:
+    NPM_CONFIG_PRODUCTION: false
